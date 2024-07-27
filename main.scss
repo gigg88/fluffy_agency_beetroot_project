@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Sen", sans-serif;
+}
+
+:root {
+    --text-color: #13253A;
 }
 
 html,
@@ -12,7 +16,7 @@ body {
  }
 
 .container {
-    width: 90%;
+    width: 81.25%;
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 5px;
@@ -22,12 +26,23 @@ body {
 .main_nav_list li {
     list-style: none;
     display: inline-block;
+    
 }
 
 .main_nav_list a{
     text-decoration: none;
+    line-height: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--text-color);
+    
 }
 
+.main_nav_list {
+    display: flex;
+    column-gap: 50px;
+
+}
 
 
 
@@ -35,9 +50,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top:53px;
     
 }
 
-.nav_container{
-    
+.header_logo img {
+    width: 500px;
+    height: 36px;
 }
