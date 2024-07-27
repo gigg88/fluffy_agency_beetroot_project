@@ -7,6 +7,10 @@
 
 :root {
   --text-color: #13253A;
+  --gyb-headliner-text: #2557AB;
+  --gyb-title: #13253A;
+  --gyb-button-cl: #FF7F57;
+  --gyb-button-text-cl: #FFFFFF;
 }
 
 html,
@@ -23,6 +27,7 @@ body {
   flex-wrap: wrap;
 }
 
+/*Header CSS*/
 .main_nav_list li {
   list-style: none;
   display: inline-block;
@@ -48,7 +53,55 @@ body {
   margin-top: 53px;
 }
 
-.header_logo img {
-  width: 500px;
+.header_logo_img {
+  width: 130px;
   height: 36px;
+}
+
+/*Hero CSS*/
+.gyb_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gyb_image img {
+  width: 100%;
+  max-width: 568px;
+}
+
+.gyb_text {
+  width: 100%;
+  max-width: 470px;
+  height: 261px;
+}
+
+.gyb_start {
+  color: var(--gyb-headliner-text);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.gyb_title {
+  color: var(--gyb-title);
+  font-weight: 900;
+  font-size: 46px;
+}
+
+.gyb_explanation {
+  color: var(--text-color);
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.gyb_button {
+  padding: 19px 42px;
+  background-color: var(--gyb-button-cl);
+  color: var(--gyb-button-text-cl);
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 3px;
 }
