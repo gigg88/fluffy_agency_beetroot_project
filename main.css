@@ -7,10 +7,13 @@
 
 :root {
   --text-color: #13253A;
-  --gyb-headliner-text: #2557AB;
+  --gyb-headliner-text:#2557AB;
+  --os-headliner-text: #2557AB;
   --gyb-title: #13253A;
   --gyb-button-cl: #FF7F57;
   --gyb-button-text-cl: #FFFFFF;
+  --gyb-bg-cl: #F4F6F7;
+  --os-headliner-cl: #3B4D6C;
 }
 
 html,
@@ -28,6 +31,10 @@ body {
 }
 
 /*Header CSS*/
+.header_section, .grow_your_business {
+  background-color: var(--gyb-bg-cl);
+}
+
 .main_nav_list li {
   list-style: none;
   display: inline-block;
@@ -51,6 +58,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 53px;
+  margin-bottom: 154px;
 }
 
 .header_logo_img {
@@ -64,6 +72,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 178px;
 }
 
 .gyb_image img {
@@ -104,4 +113,67 @@ body {
   font-weight: 600;
   text-decoration: none;
   border-radius: 3px;
+}
+
+/*Our Services CSS*/
+.our_services {
+  margin-bottom: 100px;
+}
+
+.os_headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.os_start, .os_title {
+  text-align: center;
+}
+
+.os_title {
+  font-weight: 200;
+  font-size: 38px;
+  color: var(--text-color);
+  margin-bottom: 30px;
+}
+
+.os_start {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--os-headliner-text);
+}
+
+.os_feature_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.os_content_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 370px;
+  width: 100%;
+  text-align: center;
+}
+.os_content_block .p {
+  align-self: center;
+  color: var(--text-color);
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 27px;
+}
+.os_content_block img {
+  width: 64px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.os_content_block h3 {
+  color: var(--os-headliner-cl);
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
