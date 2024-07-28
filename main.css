@@ -114,9 +114,11 @@ body {
   font-weight: 200;
   font-size: 16px;
   line-height: 27px;
+  margin-bottom: 20px;
 }
 
 .gyb_button {
+  display: inline-block;
   padding: 19px 42px;
   background-color: var(--gyb-button-cl);
   color: var(--gyb-button-text-cl);
@@ -251,8 +253,8 @@ body {
 }
 
 .au_icon_list {
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 .au_icon_list li {
   list-style: none;
@@ -333,17 +335,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  width: 100%;
 }
 .cta_content .cta_headline {
   font-size: 16px;
   font-weight: var(--medium);
   color: var(--cta-txt-cl);
-}
-.cta_content p {
-  font-size: 16px;
-  font-weight: var(--regular);
-  color: var(--cta-txt-cl);
-  margin-bottom: 20px;
 }
 .cta_content h2 {
   font-size: 46px;
@@ -351,6 +349,14 @@ body {
   color: var(--cta-h2-cl);
   width: 100%;
   max-width: 970px;
+  margin-bottom: 10px;
+}
+.cta_content .cta_txt {
+  font-size: 16px;
+  font-weight: var(--regular);
+  color: var(--cta-txt-cl);
+  margin-bottom: 20px;
+  max-width: 770px;
 }
 
 .cta_button {
