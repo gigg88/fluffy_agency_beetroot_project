@@ -7,6 +7,7 @@
 
 :root {
     --text-color: #13253A;
+    --cu-bg-color: #11364E;
     --gyb-headliner-text:#2557AB;
     --os-headliner-text: #2557AB;
     --au_headliner-text: #2557AB;
@@ -17,6 +18,8 @@
     --cta-bg-cl:#FF7F57;
     --gyb-button-text-cl: #FFFFFF;
     --cta-txt-cl:#FFFFFF;
+    --cu-txt-cl: #FFFFFF;
+
     --gyb-bg-cl: #F4F6F7;
     --cta-h2-cl: #F4F6F7;
     --e-bg-cl: #F4F6F7;
@@ -423,3 +426,92 @@ body {
         
     }
   }
+
+  /*Contact Us CSS*/
+
+  .contact_us {
+    background-color: var(--cu-bg-color) ;
+    color: var(--cu-txt-cl);
+  }
+
+  .cu_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+
+  form {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+  }
+
+  h2 {
+    margin-top: 140px;
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: var(--regular);
+  }
+
+  label {
+    font-size: 13px;
+    font-weight: var(--medium);
+  }
+
+  }
+  
+  .cu_full_name {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+  }
+
+  .cu_email{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cu_message {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cu_button {
+    button {
+    padding: 19px 100px;
+    background-color: #FF7F57;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: #F4F6F7;
+    font-size: 17px;
+    font-weight: var(--demi-bold);
+    margin-bottom: 140px;
+  }
+  }
+
+   /*Footer CSS*/
+  .footer {
+    background-color: #13253A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   .f_copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: var(--regular);
+    color: #FFFFFF;
+    opacity: 75%;
+
+   }

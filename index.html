@@ -123,26 +123,35 @@
                         <h2>About Us</h2>
                     </div>
                     <div class="au_txt_list">
-                    <div class="au_txt_l">
-                        <p class="au_txt_l_italic">We specialise in website design, user interfaces, development & copywriting.</p>
-                        <p class="au_txt_l_nonitalic">We’re a website development studio focussed on creating immersive digital strategies for your business that take established brands to new heights and launch ambitious start-ups towards their goals.</p>
-                    </div>
-                    <div class="au_txt_r">
-                        <p class="au_txt_r_nonitalic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis nisl vulputate justo consequat tempor. Nam gravida sed ipsum in pellentesque. Cras pellentesque placerat cursus. Ut ultrices ultricies finibus. Donec rutrum felis convallis, efficitur tellus sit amet, tristique metus. Integer eget sagittis urna.
+                        <div class="au_txt_l">
+                            <p class="au_txt_l_italic">We specialise in website design, user interfaces, development &
+                                copywriting.</p>
+                            <p class="au_txt_l_nonitalic">We’re a website development studio focussed on creating
+                                immersive digital strategies for your business that take established brands to new
+                                heights and launch ambitious start-ups towards their goals.</p>
+                        </div>
+                        <div class="au_txt_r">
+                            <p class="au_txt_r_nonitalic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                                iaculis nisl vulputate justo consequat tempor. Nam gravida sed ipsum in pellentesque.
+                                Cras pellentesque placerat cursus. Ut ultrices ultricies finibus. Donec rutrum felis
+                                convallis, efficitur tellus sit amet, tristique metus. Integer eget sagittis urna.
                             </p>
-                        <p class="au_txt_r_nonitalic">Aenean et facilisis mi, ut posuere eros. Vivamus nec velit at diam pretium blandit id nec urna. Aenean dignissim vehicula sapien ut vehicula. Aliquam gravida metus non ullamcorper vestibulum. Mauris lobortis purus at diam posuere, at molestie massa lobortis.</p>
+                            <p class="au_txt_r_nonitalic">Aenean et facilisis mi, ut posuere eros. Vivamus nec velit at
+                                diam pretium blandit id nec urna. Aenean dignissim vehicula sapien ut vehicula. Aliquam
+                                gravida metus non ullamcorper vestibulum. Mauris lobortis purus at diam posuere, at
+                                molestie massa lobortis.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="au_icon_list">
-                    <ul>
-                        <li><img src="./assets/images/logo-hello-fresh.svg" alt=""></li>
-                        <li><img src="./assets/images/logo-trivago.svg" alt=""></li>
-                        <li><img src="./assets/images/logo-los-angelese-times.svg" alt=""></li>
-                        <li><img src="./assets/images/logo-oracle.svg" alt=""></li>
-                        <li><img src="./assets/images/logo-target.svg" alt=""></li>
-                    </ul>
+                    <div class="au_icon_list">
+                        <ul>
+                            <li><img src="./assets/images/logo-hello-fresh.svg" alt=""></li>
+                            <li><img src="./assets/images/logo-trivago.svg" alt=""></li>
+                            <li><img src="./assets/images/logo-los-angelese-times.svg" alt=""></li>
+                            <li><img src="./assets/images/logo-oracle.svg" alt=""></li>
+                            <li><img src="./assets/images/logo-target.svg" alt=""></li>
+                        </ul>
 
-                </div>
+                    </div>
                 </div>
             </div>
 
@@ -153,7 +162,9 @@
                 <div class="r_content">
                     <div class="r_content_l">
                         <h2>Please Relax, we will do the work.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis nisl vulputate justo consequat tempor. Nam gravida sed ipsum in pellentesque. Cras pellentesque placerat cursus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis nisl vulputate justo
+                            consequat tempor. Nam gravida sed ipsum in pellentesque. Cras pellentesque placerat cursus.
+                        </p>
                         <ul>
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                             <li>Morbi iaculis nisl vulputate justo consequat tempor.</li>
@@ -169,14 +180,16 @@
 
         <section class="call_to_action">
             <div class="container"></div>
-                <div class="cta_content">
-                    <p class="cta_headline">An Agency That Helps You</p>
-                    <h2>Start Building your Website today</h2>
-                    <p class="cta_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices purus lectus, et accumsan nibh suscipit sed. Nullam lorem dui, congue pharetra posuere vel, imperdiet ac lorem.</p>
-                    <div class="cta_button">
+            <div class="cta_content">
+                <p class="cta_headline">An Agency That Helps You</p>
+                <h2>Start Building your Website today</h2>
+                <p class="cta_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices purus
+                    lectus, et accumsan nibh suscipit sed. Nullam lorem dui, congue pharetra posuere vel, imperdiet ac
+                    lorem.</p>
+                <div class="cta_button">
                     <a href="#">Get Started Now</a>
                 </div>
-                </div>
+            </div>
             </div>
 
         </section>
@@ -185,15 +198,37 @@
             <div class="container">
                 <div class="cu_content">
                     <h2>Contact Us</h2>
-                  <input type="text"> 
+                    <form action="/submit" method="post">
+                        <div class="cu_full_name">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="cu_email">
+                        <label for="email">Your Email Address:</label>
+                        <input type="email" id="email" 1 name="email" required>
+                        </div>
+
+                        <div class="cu_message">   
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                        </div>
+                        <div class="cu_button">
+                        <button type="submit">Submit Your Message</button>
+                    </div>
+                    </form>
                 </div>
             </div>
         </section>
-
-
-
-    </main>
-
+        </main>
+        
+<footer>
+    <section class="footer">
+        <div class="container">
+            <p class="f_copy">Copyright © 2018 LastDoor.Store</p>
+        </div>
+    </section>
+</footer>
 
 
 </body>
