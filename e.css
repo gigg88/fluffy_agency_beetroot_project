@@ -1,0 +1,26 @@
+/*Experience CSS*/
+.experience {
+  background-color: var(--e-bg-cl);
+  padding: 60px 355px;
+  margin-bottom: 99px;
+}
+
+.e_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.e_content_block h2 {
+  font-size: 46px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+.e_content_block span {
+  color: var(--gyb-button-cl);
+}
+.e_content_block p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--e-headliner-text);
+}

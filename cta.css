@@ -1,0 +1,49 @@
+/*Call to Action CSS*/
+.call_to_action {
+  background-color: var(--cta-bg-cl);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 235px;
+  padding-right: 235px;
+}
+
+.cta_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.cta_content .cta_headline {
+  font-size: 16px;
+  font-weight: var(--medium);
+  color: var(--cta-txt-cl);
+}
+.cta_content h2 {
+  font-size: 46px;
+  font-weight: var(--bold);
+  color: var(--cta-h2-cl);
+  width: 100%;
+  max-width: 970px;
+  margin-bottom: 10px;
+}
+.cta_content .cta_txt {
+  font-size: 16px;
+  font-weight: var(--regular);
+  color: var(--cta-txt-cl);
+  margin-bottom: 20px;
+  max-width: 770px;
+}
+
+.cta_button {
+  padding: 18px 102px;
+  background-color: var(--cta-button-cl);
+  border-radius: 3px;
+}
+.cta_button a {
+  color: var(--cta-txt-cl);
+  font-size: 17px;
+  font-weight: var(--demi-bold);
+  text-decoration: none;
+}

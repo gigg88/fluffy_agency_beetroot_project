@@ -1,0 +1,47 @@
+/*Relax CSS*/
+.r_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 100px;
+}
+
+.r_content_l {
+  width: 100%;
+  max-width: 470px;
+}
+.r_content_l h2 {
+  font-size: 38px;
+  font-weight: var(--bold);
+  width: 370px;
+  margin-bottom: 20px;
+}
+.r_content_l p {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: var(--regular);
+  margin-bottom: 20px;
+}
+.r_content_l li {
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: var(--medium);
+  list-style: none;
+}
+.r_content_l li:before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-image: url(./assets/images/Path.svg);
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  margin-right: 14px;
+  vertical-align: middle;
+}
+
+.r_content_r img {
+  width: 100%;
+  max-width: 600px;
+}

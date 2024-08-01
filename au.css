@@ -1,0 +1,54 @@
+/*About Us CSS*/
+.au_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.au_header p {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--au_headliner-text);
+}
+.au_header h2 {
+  font-weight: 800;
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.au_txt_list {
+  display: flex;
+}
+
+.au_txt_l {
+  width: 100%;
+  max-width: 370px;
+}
+
+.au_txt_r {
+  width: 100%;
+  max-width: 570px;
+}
+
+.au_icon_list {
+  justify-content: space-between;
+  align-items: center;
+}
+.au_icon_list li {
+  list-style: none;
+  display: inline-block;
+}
+
+.au_txt_l_italic {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.au_txt_l_nonitalic, .au_txt_r_nonitalic {
+  font-size: 16px;
+  line-height: 27px;
+}

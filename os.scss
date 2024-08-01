@@ -1,0 +1,67 @@
+/*Our Services CSS*/
+
+.our_services {
+    margin-bottom: 100px;
+}
+
+.os_headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .os_start, .os_title {
+    text-align: center;
+  }
+
+  .os_title {
+    font-weight: 200;
+    font-size: 38px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+  }
+
+  .os_start{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--os-headliner-text);
+  }
+
+  .os_feature_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .os_content_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 370px;
+    width: 100%;
+    text-align: center;
+
+    .p {
+        align-self: center;
+        color: var(--text-color);
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    img{
+        width: 64px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    h3{
+        color: var(--os-headliner-cl);
+        font-weight: 900;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+  }
