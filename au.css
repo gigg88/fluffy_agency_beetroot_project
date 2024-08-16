@@ -1,12 +1,24 @@
 /*About Us CSS*/
+.our_services {
+  margin-top: 120px;
+}
+
 .au_content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 100px;
 }
 
+.au_header {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  max-width: 83%;
+  margin: 0 auto;
+  flex-direction: column;
+}
 .au_header p {
   font-weight: 500;
   font-size: 16px;
@@ -20,6 +32,10 @@
 
 .au_txt_list {
   display: flex;
+  width: 100%;
+  max-width: 83%;
+  margin: 0 auto;
+  column-gap: 30px;
 }
 
 .au_txt_l {
@@ -33,12 +49,23 @@
 }
 
 .au_icon_list {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 83%;
+}
+.au_icon_list ul {
+  padding-top: 60px;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
 }
 .au_icon_list li {
   list-style: none;
   display: inline-block;
+  justify-content: space-between;
 }
 
 .au_txt_l_italic {
@@ -46,9 +73,17 @@
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
+  opacity: 90%;
+  font-weight: var(--regular);
 }
 
 .au_txt_l_nonitalic, .au_txt_r_nonitalic {
   font-size: 16px;
   line-height: 27px;
+  opacity: 90%;
+  font-weight: var(--regular);
+}
+
+.au_txt_r_nonitalic:first-child {
+  margin-bottom: 30px;
 }

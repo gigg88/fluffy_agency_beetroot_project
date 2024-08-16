@@ -1,5 +1,10 @@
 /*Header CSS*/
 
+.header_section {
+  padding-top: 53px;
+  padding-bottom: 154px;
+}
+
 .header_section, .grow_your_business {
     background-color: var(--gyb-bg-cl);
 }
@@ -28,8 +33,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top:53px;
-    margin-bottom: 154px;
     
 }
 

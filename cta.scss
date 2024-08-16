@@ -36,6 +36,7 @@
     .cta_txt {
         font-size: 16px;
         font-weight: var(--regular);
+        line-height: 27px;
         color: var(--cta-txt-cl);
         margin-bottom: 20px;
         max-width: 770px;
@@ -48,11 +49,14 @@
     padding: 18px 102px;
     background-color: var(--cta-button-cl);
     border-radius: 3px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     a{
         color: var(--cta-txt-cl);
         font-size: 17px;
+        line-height: auto;
         font-weight: var(--demi-bold);
         text-decoration: none;
+        
         
     }
   }
