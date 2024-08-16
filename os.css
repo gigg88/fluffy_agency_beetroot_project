@@ -60,3 +60,8 @@
   font-size: 20px;
   margin-bottom: 5px;
 }
+
+.os_content_block:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}

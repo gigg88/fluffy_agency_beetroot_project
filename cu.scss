@@ -54,6 +54,7 @@
   }
 
   .cu_button {
+    
     button {
     padding: 19px 100px;
     background-color: #FF7F57;
@@ -65,6 +66,7 @@
     font-size: 17px;
     font-weight: var(--demi-bold);
     margin-bottom: 140px;
+    transition: background-color 0.3s ease-in-out;
   }
   }
 
@@ -94,3 +96,8 @@
       color: rgba(255, 255, 255, 0.20);
       resize: none;
     }
+
+    .cu_button button:hover {
+      background-color: #D9480F;
+      transform: scale(1.05);
+  }

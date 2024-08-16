@@ -42,6 +42,7 @@
   background-color: var(--cta-button-cl);
   border-radius: 3px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
 }
 .cta_button a {
   color: var(--cta-txt-cl);
@@ -49,4 +50,9 @@
   line-height: auto;
   font-weight: var(--demi-bold);
   text-decoration: none;
+}
+
+.cta_button:hover {
+  background-color: var(--cta-button-cl-hover);
+  transform: scale(1.05);
 }

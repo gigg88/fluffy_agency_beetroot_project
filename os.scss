@@ -32,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+       
   }
 
   .os_content_block {
@@ -43,6 +43,8 @@
     max-width: 370px;
     width: 100%;
     text-align: center;
+    
+   
 
     .p {
         align-self: center;
@@ -64,5 +66,10 @@
         font-size: 20px;
         margin-bottom: 5px;
     }
+   
+  }
 
+  .os_content_block:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
   }

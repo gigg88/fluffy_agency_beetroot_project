@@ -47,4 +47,10 @@
   font-weight: 600;
   text-decoration: none;
   border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.gyb_button:hover {
+  background-color: #D9480F;
+  transform: scale(1.05);
 }

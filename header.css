@@ -11,6 +11,14 @@
 .main_nav_list li {
   list-style: none;
   display: inline-block;
+  transition: background-color 0.3s ease-in-out;
+}
+.main_nav_list li :hover {
+  color: #FF7F57;
+}
+
+.main_nav_list li:hover {
+  transform: scale(1.2);
 }
 
 .main_nav_list a {
@@ -35,4 +43,9 @@
 .header_logo_img {
   width: 130px;
   height: 36px;
+}
+
+.header_logo_img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }

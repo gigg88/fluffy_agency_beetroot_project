@@ -94,3 +94,10 @@
   .au_txt_r_nonitalic:first-child {
     margin-bottom: 30px;
   }
+  
+  .au_icon_list li:hover {
+ 
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    
+  }
